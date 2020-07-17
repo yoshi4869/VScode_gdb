@@ -8,14 +8,14 @@
             "name": "(gdb) 起動",
             "type": "cppdbg",
             "request": "launch",
-            "program": "プログラム名を入力してください (例: ${workspaceFolder}/a.exe)",
+            "program": "${workspaceFolder}/a.exe",//ビルドしたファイル名
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "/path/to/gdb",
+            "miDebuggerPath": "C:\\\\MinGW\\bin\\gdb.exe",//MinGWのパス
             "setupCommands": [
                 {
                     "description": "gdb の再フォーマットを有効にする",
